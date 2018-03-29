@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="lso.naing.lashio.PoliceActivity"
+    android:background="#6eace6">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:gravity="center"
+        android:background="#99e2e0">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="မိမိပတ္၀န္းက်င္တြင္ ထူးျခားမႈရွိပါက\n
+ ေအာက္ပါဖုန္းနံပါတ္မ်ားသို႔\n
+ဆက္သြယ္သတင္းပို႔ႏိုင္ပါသည္။\n
+ရွမ္းျပည္နယ္ဒုတိယရဲတပ္ဖြဲ့မွဴ း(လားရႈိး)"
+        android:layout_marginTop="10dp"
+        android:textColor="#ff0505"
+        android:textSize="20dp"/>
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/list_id"
+        android:layout_marginTop="230dp">
+
+    </ListView>
+
+</RelativeLayout>

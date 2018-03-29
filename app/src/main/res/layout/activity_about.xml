@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="lso.naing.lashio.AboutActivity"
+    android:background="@drawable/bgg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/hand_about">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="အေၾကာင္းအရာ"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="#edebeb"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="220dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#000"
+            android:text="ဒီ Software ေရးသားရျခင္းအေၾကာင္းကေတာ႔ \n အခက္ခဲရွိေနေသာ အခ်ိန္တြင္ \n လွ်င္ျမန္စြာ အကူညီေတာင္းႏိုင္ဖို႔ရန္\n ရည္ရြယ္ျပီး ေရးသားထားျခင္းျဖစ္ပါသည္။ \n\n ဒီ Software ေလးသံုးရတာ အဆင္မေျပမႈ ႔ \n Application နဲ႔ပါတ္သက္ျပီး အၾကံေပးလိုပါက\n   ဆက္သြယ္ရန္ Facebook ကိုႏွိပ္ ၍ ေမးျမန္းႏိုင္ပါသည္။ "/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="390dp"
+        android:gravity="center">
+
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/img_facebook"
+            android:background="@drawable/fb_button"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="490dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Developed By Naing Myo Zaw"
+            android:textSize="15dp"
+            android:textColor="#3900e6"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

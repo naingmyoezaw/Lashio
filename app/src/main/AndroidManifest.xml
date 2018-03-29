@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="lso.naing.lashio">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_ic"
+        android:label="Lashio Emergency"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/NoBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FirstActivity"
+            android:label="Home" />
+        <activity
+            android:name=".MainActivity"
+            android:parentActivityName=".FirstActivity" />
+        <activity
+            android:name=".ShowContactActivity"
+            android:label="လူမႈကယ္ဆယ္ေရးအသင္း"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".AboutActivity"
+            android:label="About"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".PoliceActivity"
+            android:label="ရဲတပ္ဖြဲ့ဖုန္းနံပါတ္မ်ား"
+            android:parentActivityName=".MainActivity"></activity>
+    </application>
+
+</manifest>
